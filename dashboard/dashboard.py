@@ -68,7 +68,7 @@ def create_rfm_bike_rentals_df(df):
 
     return rfm_df
 
-all_df = pd.read_csv("D:\\Dashboard\\all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
